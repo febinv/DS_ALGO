@@ -1,7 +1,7 @@
 def maxsubarray(arr):
     i=0
     j=0
-    sum=0
+    sum=float("-inf")
     while i<len(arr):
         runningsum=0
         j=i
